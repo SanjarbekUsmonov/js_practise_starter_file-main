@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pac{
+    font-size: 90px;
+    color: #f2a85d;
+}
+.container{
+    width: 1515px;
+    height: 750px;
+    border: 10px solid black;
+    position: relative;
+    background-image: url(../pac_man_chasing_a_ghost_by_richsquid1996_ddzlybm-fullview.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dinazavr{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    background-image: url(../pac-man-ghost-lampe--pdp_zoom-3000--pdp_main-540_.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.sanjar{
+    animation: dinazavr 1.5s;
+}
+
+ @keyframes dinazavr{
+  0%{
+      bottom: 0px;
+  }
+  30%{
+      bottom: 410px;
+  }
+  70%{
+      bottom: 410px;
+  }
+  100%{
+      bottom: 0px;
+  }
+ }
+.kaktus{
+    width: 110px;
+    height:  100px;
+    background-color:rgb(75, 71, 71);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: block 1.4s infinite linear;
+    border-radius: 35px;
+    background-image: url(../a0849c197e878435ee02889d11ea1a72.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@keyframes block{
+    from{
+        right: 0;
+    }
+    to{
+        right: 1515px;
+    }
+}
