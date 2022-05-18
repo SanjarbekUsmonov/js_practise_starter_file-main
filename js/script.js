@@ -7,6 +7,7 @@ function sanjar(){
   }
    setTimeout(()=>{
     dinazavr.classList.remove('sanjar')
+    
    },500)  
 }
 
